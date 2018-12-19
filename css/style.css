@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  
+}
+
+
+header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+    width: 100%;
+    height: 700;
+    position: relative;
+}
+
+header .header{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header .header h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+
+@media(max-width:868px){
+    
+    header .header h1{
+         font-size: 30px;
+    }
+}
+
+section.numbers{
+    height: auto;
+    background: #eee;
+   
+   
+   
+}
+
+section.numbers .number-title{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 40%;
+   
+    
+}
+
+section.numbers .number-title h2{
+    font-size: 60px;
+    font-family: cursive;
+    letter-spacing: 10px;
+    color: #00f;
+}
+
+@media(max-width:868px){
+    section.numbers .number-title h2{
+         letter-spacing: 2px;
+    }
+}
+
+
+
+section.numbers .number-title h2 span{
+    color: #f00;
+}
+
+section.numbers  div:nth-child(1),
+section.numbers  div:nth-child(2)
+{
+    margin-top: 50px;
+}
+
+section.numbers  div{
+    margin-bottom: 20px;
+    position: relative;
+    outline: 0;
+    
+    
+}
+
+section.numbers div > a img{
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+     outline: 0;
+    border-radius: 10px;
+}
+
+
+
+section.numbers  div:nth-child(1):hover section.numbers div > div.fruit img{
+    display: block;
+}
+
+
+section.calc{
+    height: 600px;
+    width: 100%;
+}
+
+section.calc .calc-desc{
+    text-align: center;
+    margin: auto;
+    display: block;
+   
+}
+
+section.calc .calc-desc h2{
+    color: #000;
+    font-family: cursive;
+    margin-bottom: 40px;
+        
+}
+
+section.calc .calc-desc button.start{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background: #0f4bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section.calc .calc-desc button:hover{
+     background: #07acff;
+}
+
+section.calc .aaa{
+  
+   height: auto;
+    width: 100%;
+    background: #6dc0ff;
+    margin-bottom: 40px;
+   
+   
+  
+   
+    
+
+}
+
+section.calc div > img{
+    width: 60%;
+    
+}
+
+section.calc .aaa .left{
+   
+    width: 80%;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+  
+     
+    
+   
+}
+
+section.calc .aaa .left h3{
+    font-family: cursive;
+    line-height: 80px;
+    text-align: center;
+    font-size: 60px;
+  
+    
+   
+   
+}
+
+section.calc .aaa .right{
+   
+      width: 100%;
+     margin-top: 50px;
+   
+    
+    
+  
+}
+
+
+section.calc .aaa .right button h3.answer{
+      font-family: cursive;
+     line-height: 100px;
+    text-align: center;
+   
+   
+  
+   
+   
+}
+
+
+section.calc .aaa .right div > button{
+    width:70%;
+    height: 100px;
+    background: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    
+    cursor: pointer;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+   
+   
+}
+
+section.calc .aaa .right div > button:hover{
+     background: #32ffa6;
+}
+
+
+
+
+section.calc .aaa .left #good{
+    width: 100px;
+    height: 60px;
+    background: #009620;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+    display: none;
+}
+
+section.calc .aaa .left #tryagain{
+    width: 100px;
+    height: 60px;
+    background: #ff0000;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+    margin-top: -10px;
+    display: none;
+}
+
+
+
+
+
+
+section.calc .minus{
+  
+   height: auto;
+    width: 100%;
+    background: #6dc0ff;
+    margin-bottom: 40px;
+   }
+   
+
+section.calc .calc-desc2{
+    text-align: center;
+    margin: auto;
+    display: block;
+   
+}
+
+section.calc .calc-desc2 h2{
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+  section.calc .calc-desc2 button.start2{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background: #0f4bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section.calc .calc-desc2 button.start2:hover{
+     background: #07acff;
+}
+
+
+ section.calc .minus .top h3{
+    font-family: cursive;
+    line-height: 80px;
+    text-align: center;
+    font-size: 60px;
+  
+    
+   
+   
+}  
+    
+
+
+
+section.calc .minus .top{
+   
+    width: 100%;
+    margin-top: 20px;
+  
+     
+    
+   
+}
+
+ection.calc .minus .bottom{
+   
+      width: 100%;
+     margin-top: 20px;
+     margin-left: 10%;
+   
+    
+    
+  
+}
+
+
+section.calc .minus .bottom h3{
+    font-family: cursive;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+  
+    
+   
+   
+}
+
+s
+
+
+section.calc .minus .bottom button h3.answer2{
+      font-family: cursive;
+     line-height: 100px;
+    text-align: center;
+   
+   
+  
+   
+   
+}
+
+
+section.calc .minus .bottom div > button{
+    width:70%;
+    height: 100px;
+    background: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+    cursor: pointer;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+   
+   
+}
+
+section.calc .minus .bottom div > button:hover{
+     background: #32ffa6;
+}
+
+
+section.calc .minus .top #good2{
+    width: 100px;
+    height: 60px;
+    background: #009620;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+    display: none;
+}
+
+section.calc .minus .top #tryagain2{
+    width: 100px;
+    height: 60px;
+    background: #f00;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+    margin-top: -10px;
+    display: none;
+}
+
+
+
+
